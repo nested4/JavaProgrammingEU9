@@ -17,8 +17,9 @@ Array: one of the three data structures
 
 	multi-dimensional array: array of arrays. two or more dimensional ([][]..)
 			[index of Arrays][index Of Elements]
+			[][]
 			[][][]
-			.....
+			.......
 
 			n dimensional array contains (n-1) dimensional array
 
@@ -54,7 +55,7 @@ Task:
 		step1 : reverse "Java"
 		....
 
-		step5: rverse "python"
+		step5: reverse "python"
 		...
 
 

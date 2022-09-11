@@ -9,6 +9,15 @@ public class ForEachLoop {
         int[][] arr2D = { {1,2,3} , {4,5,6,7}, {8,9,10,11,12}  };
     // index of arrays:       0         1            2
 
+        for (int[] ints : arr2D) {
+            for (int arrElements : ints) {
+                System.out.print(arrElements+" ");
+            }
+        }
+        System.out.println();
+
+        System.out.println("---------------------------------");
+
 /*
         for(int[]  each1DArray   : arr2D){
 

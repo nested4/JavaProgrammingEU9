@@ -13,7 +13,7 @@ public class ReverseSentence {
 
         String reversedSentence = ""; //Java learn to day good a is Today
 
-        for (int i = words.length - 1; i >= 0; i--) {
+        for (int i = words.length - 1; 0<=i ; i--) {
             reversedSentence += words[i] +" ";
         }
 
