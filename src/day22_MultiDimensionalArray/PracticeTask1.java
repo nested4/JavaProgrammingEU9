@@ -16,8 +16,8 @@ public class PracticeTask1 {
 
     public static void main(String[] args) {
 
-
         int[][] arr2D = {{1, 2, 3}, {4, 5, 6}};
+//        int[][] reverse = Arrays.copyOf(arr2D,arr2D.length);
         int[][] reverse = new int[2][3];
 
         for (int i = arr2D.length - 1,i1=0; i >= 0; i--,i1++) {

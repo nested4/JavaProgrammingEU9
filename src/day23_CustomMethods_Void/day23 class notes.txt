@@ -34,21 +34,20 @@ Arrays: utility class for array. in "java.util" package
 		copyOfRange()
 
 
-String methods:
+String methods: related to Arrays
 	toCharArray()
 	split()
 
 
 for each loop: already iterated
-			    iteration order is fixed 
+			    iteration order is fixed
+			    fastest of all loops but limited
 
-			    THERE MUST BE A DATA STRUCTURE
+			    THERE MUST BE A DATA STRUCTURE (Array,Collection or Map,)
 
 			    for(DataType variable : Array){
 
 			    }
-
-
 
 
 Task:
@@ -62,6 +61,7 @@ Task:
 		step10: reverse "Cydeo"
 		...
 
+       instead of reversing all above individually, we define a method adn call that method to solve all one by one.
 
 
 
@@ -92,9 +92,9 @@ Method: Function
 
 Custom Methods:
 	1. void methods
-	2. void methods with argumnets
+	2. void methods with arguments
 	3. return methods
-	4. returns with argumnet
+	4. returns with argument
 	5. overloading
 
 

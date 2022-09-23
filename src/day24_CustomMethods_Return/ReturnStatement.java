@@ -5,7 +5,7 @@ public class ReturnStatement {
 
     public static void main(String[] args) {
 
-        nameOfDay(6);
+        nameOfDay(8);
 
     }
 
@@ -16,7 +16,7 @@ public class ReturnStatement {
 
         if(number < 1 || number > 7){ // if the number is invalid
             System.out.println("Invalid");
-            return ; // exits nameOfDay method
+            return; // exits nameOfDay method  // you can also use return method in void method but you can only use it to exit the method.
         }
 
         if(number == 1){

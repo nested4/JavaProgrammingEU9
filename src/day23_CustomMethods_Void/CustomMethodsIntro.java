@@ -15,9 +15,9 @@ public class CustomMethodsIntro {
     }
 
 
-    public static void greeting(){
+    private static void greeting(){
 
-        System.out.println("Hello Cydeo!");
+        System.out.println("Hello Guys!");
         System.out.println("How are you today?");
 
 

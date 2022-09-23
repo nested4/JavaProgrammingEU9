@@ -4,13 +4,13 @@ public class CustomMethodsWIthParameters {
 
     public static void main(String[] args) {
 
-      //  oddOrEven(); // the method demands additional info to complete its task
+//        oddOrEven(); // the method demands additional info to complete its task
 
-        oddOrEven(10);
+        oddOrEven(11);
 
         ageOfPerson(1995);
 
-        printNumbers( 1000, 2000);
+        printNumbers( 100, 200);
 
 
     }
@@ -31,15 +31,20 @@ public class CustomMethodsWIthParameters {
     // create a function that can display the age of the person
     public static void ageOfPerson(int birthYear){
 
-        int age = 2021 - birthYear;
+        int age = 2022 - birthYear;
 
-        System.out.println("Your age is: "+age);
+        System.out.println("Your age is : "+age);
 
     }
 
     //                                                       10       50
     //create a function that can print all the numbers between X and Y
     public static void printNumbers(int x, int y){
+
+        for (int i = x+1; i < y; i++) {
+            System.out.print(i+" ");
+
+        }
 
 
     }

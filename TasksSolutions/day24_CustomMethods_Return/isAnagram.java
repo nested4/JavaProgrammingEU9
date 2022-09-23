@@ -2,16 +2,25 @@ package day24_CustomMethods_Return;
 
 import java.util.Arrays;
 
+
 public class isAnagram {
+    public static void main(String[] args) {
+      String  str1 = "abc";
+      String  str2 = "bac";
 
-    public static boolean isAnagram(String str1, String str2){
-        char[] ch1 =str1.toCharArray();
-        char[] ch2 =str2.toCharArray();
+        System.out.println(isAnagram(str1, str2));
+    }
 
-        Arrays.sort(ch1);
-        Arrays.sort(ch2);
+    public static boolean isAnagram(String str1, String str2) {
+        boolean isAnagram;
+        char[] char1 = str1.toCharArray();
+        char[] char2 = str2.toCharArray();
 
-        return Arrays.equals(ch1, ch2);
+        Arrays.sort(char1);
+        Arrays.sort(char2);
+        isAnagram= Arrays.equals(char1, char2);
+        return isAnagram;
+
     }
 
 

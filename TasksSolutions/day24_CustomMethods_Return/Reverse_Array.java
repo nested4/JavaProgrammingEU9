@@ -1,8 +1,7 @@
 package day24_CustomMethods_Return;
 
 public class Reverse_Array {
-
-    public static int[] reverse(int[] array){
+        public static int[] reverse(int[] array){
 
         int[] result = new int[array.length];
 

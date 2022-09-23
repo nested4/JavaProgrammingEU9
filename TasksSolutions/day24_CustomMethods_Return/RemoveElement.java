@@ -2,7 +2,7 @@ package day24_CustomMethods_Return;
 
 public class RemoveElement {
 
-    public static int[] removeElement(int[] array, int index){
+    public static int[] removeElement(int[] array, int index) {
 
         if(index < 0 || index > array.length-1){
             System.err.println("Invalid Index: "+index);

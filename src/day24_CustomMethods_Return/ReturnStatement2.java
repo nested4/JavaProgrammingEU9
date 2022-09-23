@@ -6,6 +6,7 @@ public class ReturnStatement2 {
     public static void main(String[] args) {
 
         nameOfMonth(30);
+        System.out.println("Hello World");
 
     }
 
@@ -14,6 +15,7 @@ public class ReturnStatement2 {
 
         if(number < 1 || number > 12){
             System.out.println("Invalid");
+//            System.exit(0);       // terminates everything check is necessary
             return; // exits nameOfMonth method, remaining code fragments of the method never gets executed
         }
 

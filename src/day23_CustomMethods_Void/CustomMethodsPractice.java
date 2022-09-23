@@ -8,7 +8,7 @@ public class CustomMethodsPractice {
 
         System.out.println("------------------------------");
 
-        helloCydeo5Times();
+        helloGuys5Times();
 
         System.out.println("------------------------------");
 
@@ -27,11 +27,11 @@ public class CustomMethodsPractice {
     }
 
 
-    // create a function that can print hello Cydeo 5 times  ==> helloCydeo5Times
-    public static void helloCydeo5Times(){
+    // create a function that can print Hello Guys 5 times  ==> helloGuys5Times
+    public static void helloGuys5Times(){
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("Hello Cydeo!");
+            System.out.println("Hello Guys!");
         }
 
     }

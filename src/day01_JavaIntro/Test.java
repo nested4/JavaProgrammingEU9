@@ -1,5 +1,6 @@
 package day01_JavaIntro;
 
+
 import utilities.StringUtility;
 
 public class Test {
@@ -9,8 +10,6 @@ public class Test {
         String str = "Wooden Spoon";
 
         StringUtility.printEachChar(str);
-
-
 
     }
 

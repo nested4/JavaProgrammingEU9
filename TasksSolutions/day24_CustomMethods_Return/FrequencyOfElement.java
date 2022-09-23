@@ -3,8 +3,7 @@ package day24_CustomMethods_Return;
 public class FrequencyOfElement {
 
     public static int frequencyOfElement(int[] array, int element){
-
-        int count = 0;
+    int count = 0;
         for (int each : array) {
             if(each == element){
                 count++;

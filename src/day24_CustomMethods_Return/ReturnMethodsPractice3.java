@@ -2,6 +2,8 @@ package day24_CustomMethods_Return;
 
 public class ReturnMethodsPractice3 {
 
+    //unique characters
+
 
     public static void main(String[] args) {
 

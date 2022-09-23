@@ -4,7 +4,7 @@ public class ReturnMethodPractice {
 
     public static void main(String[] args) {
 
-        // find the max number between 100 & 200
+        // find the max number 100 & 200
        int maxNumber = max(100, 200);
 
         System.out.println(maxNumber);

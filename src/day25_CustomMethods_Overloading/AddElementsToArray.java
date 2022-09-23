@@ -38,8 +38,6 @@ public class AddElementsToArray {
 
 
     }
-
-
     //1. create a return method called addInteger that can add an Integer  after the  last index of an integer array
     public static int[] addInteger(int[] array, int element){
         int[] result = new int[array.length + 1];

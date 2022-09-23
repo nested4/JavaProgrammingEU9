@@ -8,6 +8,7 @@ public class AverageNumber {
 
         double sum = 0;
 
+
         for (int number : numbers) {
             sum += number;
         }

@@ -8,12 +8,16 @@ public class MethodOverloading {
 
         int[] intArray = {5,6,0,-1,3,4};
         Arrays.sort(intArray);
+        System.out.println(Arrays.toString(intArray));
 
         double[] doubleArray = {10.5, 11.5, 5.5, 4.5};
         Arrays.sort(doubleArray);
+        System.out.println(Arrays.toString(doubleArray));
+
 
         char[] charArray = {'E', 'F', 'B', 'D', 'C', 'A'};
         Arrays.sort(charArray);
+        System.out.println(Arrays.toString(charArray));
 
         System.out.println("-------------------------------------------");
 

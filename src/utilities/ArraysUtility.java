@@ -38,30 +38,34 @@ public class ArraysUtility {
 
     //returns the maximum number from integer array
     public static int max(int[] numbers){
-        Arrays.sort(numbers);
-        return numbers[numbers.length-1];
+        int[] temp = Arrays.copyOf(numbers, numbers.length);
+        Arrays.sort(temp);
+        return temp[temp.length-1];
     }
 
 
     //returns the maximum number from double array
     public static double max(double[] numbers){
-        Arrays.sort(numbers);
-        return numbers[numbers.length-1];
+        double[] temp = Arrays.copyOf(numbers, numbers.length);
+        Arrays.sort(temp);
+        return temp[temp.length-1];
     }
 
 
 
     //returns the minimum number from integer array
     public static int min(int[] numbers){
-        Arrays.sort(numbers);
-        return numbers[0];
+        int[] temp = Arrays.copyOf(numbers, numbers.length);
+        Arrays.sort(temp);
+        return temp[0];
     }
 
 
     //returns the minimum number from double array
     public static double min(double[] numbers){
-        Arrays.sort(numbers);
-        return numbers[0];
+        double[] temp = Arrays.copyOf(numbers, numbers.length);
+        Arrays.sort(temp);
+        return temp[0];
     }
 
 
